@@ -29,8 +29,8 @@ import axios from 'axios'
   },
   mounted () {
     axios
-      .get('./data/chart.json') //ここにURLを入れる
-      .then(response => (this.users = response))
+      .get('http://localhost:3000/users') //ここにURLを入れる
+      .then(response => (this.users = response.data))
   }
    }
 </script>

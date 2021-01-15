@@ -1,5 +1,5 @@
-
-{"users":[
+{
+  "users": [
     {
       "id": 1,
       "name": "hogehoge"
@@ -9,4 +9,4 @@
       "name": "gehogeho"
     }
   ]
-  }
+}
